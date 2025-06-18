@@ -1,5 +1,7 @@
+// External libraries
 import styled from 'styled-components/native';
-import Text from '../../components/Text';
+
+// Components
 import Button from '../../components/Button';
 
 export const Wrapper = styled.View`

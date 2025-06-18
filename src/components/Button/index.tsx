@@ -1,14 +1,14 @@
 // Styled
-import { TouchableHighlightProps } from 'react-native';
+import { TouchableOpacityProps } from 'react-native';
 import { StyledButton, StyledText } from './styles';
 
-interface ButtonProps extends TouchableHighlightProps {
+interface ButtonProps extends TouchableOpacityProps {
   textButton: string;
 }
 
 const Button = (props: ButtonProps) => {
   return (
-    <StyledButton {...props}>
+    <StyledButton {...props} activeOpacity={0.7}>
       <StyledText>{props.textButton}</StyledText>
     </StyledButton>
   );

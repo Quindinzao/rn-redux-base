@@ -3,7 +3,7 @@ import { Dimensions } from 'react-native';
 
 const width = Dimensions.get('screen').width;
 
-export const StyledButton = styled.TouchableHighlight`
+export const StyledButton = styled.TouchableOpacity`
   height: 54px;
   justify-content: center;
   border-radius: 12px;
