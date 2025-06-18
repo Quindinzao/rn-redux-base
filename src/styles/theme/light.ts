@@ -1,4 +1,5 @@
 export const light = {
+  name: 'light',
   colors: {
     background: '#F3F3F3',
     button: '#CFE6EE',
